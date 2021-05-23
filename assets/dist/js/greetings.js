@@ -1,5 +1,5 @@
 
-document.write("<p style='float:right;'>");
+document.write("<p style='text-align:center;'>");
 
         var day = new Date();
 
