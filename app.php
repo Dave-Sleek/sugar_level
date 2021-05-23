@@ -56,7 +56,7 @@
   <p class="h5 my-0 me-md-auto fw-normal"><a class="navbar-brand" href="app.php" style="color: white;"><i class="fa fa-thermometer-3"> </i><strong> BLOOD SUGAR CONVERTER</strong></a></p>
   <nav class="my-2 my-md-0 me-md-3">
 
-   <h5> <a class="btn btn-outline-primary text-white shadow-ms" href="tel:+2347045574466"> <i class="fa fa-phone"></i> 07045576644</a><a class="btn btn-outline-success text-white" href="https://wa.me/2348138809708?text=Hi%20I'm%20Dave,%20thanks%20for%20contacting%20me!%20Please%20let%20 me%20know%20how%20i%20can%20help%20you."> <i class="fa fa-whatsapp"></i> Send a message</a></h5>
+   <h5> <a class="btn btn-outline-primary text-white shadow-ms" href="tel:+2347045574466"> <i class="fa fa-phone"></i> 07045576644</a></h5>
  <!--
     <a class="p-2 text-dark" href="#">Enterprise</a>
     <a class="p-2 text-dark" href="#">Support</a>
@@ -766,7 +766,7 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
 <p class="float-end mb-1"></p>
 
     <br><br><br>
-<footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+<footer class="footer mt-auto py-3 bg-dark">
   <div class="container">
     <span class="text-muted">BLOOD SUGAR CONVERTER &copy; <?php echo date("Y"); ?> | Pwered By: GetBusyCoding. &nbsp;<p style="float: right;"><a href="https://facebook.com/dave.enyi.7" target="_blank"><i class="fa fa-facebook"></i></a>  <a href="https://instagram.com/i_am_dave_sleek" target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> <a href="https://twitter.com/davey_sleek" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a> <a href="https://linkedin.com/in/dave-enyi-631aa2109" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a> <a href="https://github.com/Dave-Sleek" target="_blank"><i class="fa fa-github" target="_blank"></i></a></p></span>
   </div>
