@@ -81,7 +81,7 @@
 -->
 <div class="container">
 <br>
-<h5 class="h4 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
+<h5 class="h5 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
 <h1 class="h5 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
 <br>
 <img src="assets/img/img.jpeg" class="img-fluid mx-auto d-block">
@@ -92,8 +92,8 @@
 <span class="card-text" id="days" align="center"></span> -&nbsp;
 <span class="card-text" id="dat"> </span> -&nbsp;
 <span class="card-text" id="mont"> </span> -&nbsp;
-<span class="card-text" id="mont"> <?php echo date("Y"); ?> </span> &nbsp;
-<span class="card-text"><script src="assets/dist/js/greetings.js"></script></span>
+<span class="card-text" id="mont"> <?php echo date("Y"); ?> </span>
+<span class="card-text" style="text-align"><script src="assets/dist/js/greetings.js"></script></span>
 </center>
 <hr><br>
 <form name="convert" id="convert" method="post">
