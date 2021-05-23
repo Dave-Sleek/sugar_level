@@ -81,8 +81,8 @@
 -->
 <div class="container">
 <br>
-<h1 class="h1 mb-3 fw-normal" align="center">BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</h1>
-<h1 class="h3 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
+<h5 class="h4 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
+<h1 class="h5 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
 <br>
 <img src="assets/img/img.jpeg" class="img-fluid mx-auto d-block">
 
@@ -422,7 +422,7 @@ For example, keeping track helps you determine whether you need to make adjustme
 It will also help you find out how your body reacts to certain foods (42, 43Trusted Source).</p>
 <p>
 Try measuring your levels every day and keeping track of the numbers in a log.</p>
-<p>
+
 <strong>SUMMARY</strong><br>
 <p>
 Checking your blood glucose and maintaining a log every day will help you adjust foods and medications when necessary to help decrease your blood sugar levels.</p>
@@ -435,9 +435,9 @@ Poor sleeping habits and a lack of rest can also affect blood sugar levels and i
 Sleep deprivation decreases the release of growth hormones and increases cortisol levels. Both of these play an essential role in blood sugar management (44Trusted Source, 45Trusted Source, 46Trusted Source).</p>
 <p>
 Furthermore, adequate sleep is about both quantity and quality. It’s best to get a sufficient amount of high quality sleep every night (47Trusted Source).</p>
-<p>
+
 <strong>SUMMARY</strong><br>
-Good sleep helps maintain your blood sugar levels and promote a healthy weight. Poor sleep can disrupt critical metabolic hormones.</p>
+Good sleep helps maintain your blood sugar levels and promote a healthy weight. Poor sleep can disrupt critical metabolic hormones.
 <p>
 <li>Eat foods rich in chromium and magnesium</li>
 High blood sugar levels and diabetes have also been linked to micronutrient deficiencies (48, 49, 56Trusted Source).</p>
@@ -614,7 +614,7 @@ If you have diabetes or have blood sugar management problems, it’s important t
 <p class="card-text">
 Too little glucose, called hypoglycemia, starves cells, and too much glucose (hyperglycemia) creates a sticky, paralyzing effect on cells. Euglycemia, or blood sugar within the normal range, is naturally ideal for the body’s functions. A delicate balance between hormones of the pancreas, intestines, brain, and even adrenals is required to maintain normal BG levels.</p>
 
-<h4><strong>Fuels of the Body</strong></h4>
+<h5><strong>Fuels of the Body</strong></h5>
 <p>
 To appreciate the pathology of diabetes, it is important to understand how the body normally uses food for energy. Glucose, fats, and proteins are the foods that fuel the body. Knowing how the pancreatic, digestive, and intestinal hormones are involved in food metabolism can help you understand normal physiology and how problems develop with diabetes.</p>
 <p>
@@ -626,7 +626,7 @@ Your body is designed to survive and so it stores energy efficiently, as fat. Mo
 <p>
 When blood glucose levels fall after 2 hours, the liver replenishes the circulating blood glucose by releasing glycogen (stored glucose). Glycogen is a polysaccharide, made and stored primarily in the cells of the liver. Glycogen provides an energy reserve that can be quickly mobilized to meet a sudden need for glucose.</p>
 
-<h4><strong>Hormones of the Pancreas</strong></h4>
+<h5><strong>Hormones of the Pancreas</strong></h5>
 <p>
 Regulation of blood glucose is largely done through the endocrine hormones of the pancreas, a beautiful balance of hormones achieved through a negative feedback loop. The main hormones of the pancreas that affect blood glucose include insulin, glucagon, somatostatin, and amylin.</p>
 <p>
@@ -656,11 +656,11 @@ The concentration of glucose in the blood is determined by the balance between t
 <li>When blood glucose concentrations are high, the liver and the skeletal muscles are signaled to remove glucose from the circulation.</li></p>
 </ul>
 <p>
-<h4><strong>The Role of Insulin</strong></h4></p>
+<h5><strong>The Role of Insulin</strong></h5></p>
 <p>
 Insulin is a peptide hormone made in the beta cells of the pancreas that is central to regulating carbohydrate metabolism in the body (Wikipedia, 2016). After a meal, insulin is secreted into the bloodstream. When it reaches insulin-sensitive cells—liver cells, fat cells, and striated muscle—insulin stimulates them to take up and metabolize glucose. Insulin synthesis and release from beta cells is stimulated by rising concentrations of blood glucose. Insulin has a range of effects that can be categorized as anabolic, or growth-promoting.</p>
 
-<h4><strong>The Role of Glucagon</strong></h4>
+<h5><strong>The Role of Glucagon</strong></h5>
 <p>
 Glucagon, a peptide hormone secreted by the pancreas, raises blood glucose levels. Its effect is opposite to insulin, which lowers blood glucose levels. When it reaches the liver, glucagon stimulates glycolysis, the breakdown of glycogen, and the export of glucose into the circulation. In these ways, the effects of glucagon are catabolic, breaking down cells—the opposite of insulin’s anabolic effects (Drucker, 2008). </p>
 <p>
@@ -685,9 +685,9 @@ People with type 2 diabetes have excess glucagon secretion, which is a contribut
       </div>
     </div>
   </div>
-<p class="card-text"><strong><h4>Read more about blood sugar</h4></strong></p>
+<p class="card-text"><strong><h5>Read more about blood sugar</h5></strong></p>
 <details>
-  <summary><h4><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></h4></summary>
+  <summary><h5><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></h5></summary>
 <p>
 The blood sugar level, blood sugar concentration, or blood glucose level is the measure of concentration of glucose present in the blood of humans or other animals. Approximately 4 grams of glucose, a simple sugar, is present in the blood of a 70 kg (154 lb) human at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen; in fasting individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle.
 </p>
@@ -706,7 +706,7 @@ The intake of alcohol causes an initial surge in blood sugar and later tends to 
 </details>
 <br>
 <details>
-<summary> <h4><strong>THE DIFFERENCE BETWEEN mmol/L and mg/dL</strong></h4> </summary>
+<summary> <h5><strong>THE DIFFERENCE BETWEEN mmol/L and mg/dL</strong></h5> </summary>
 <br><br>
   <h5><strong>Whats the difference between mmol/L and mg/dL?</strong></h5><p>
 Both sets of units are used to measure blood sugar levels and both give a measurement of the concentration of glucose in the blood, albeit in slightly different ways.
@@ -745,13 +745,13 @@ Blood sugar level refers to the total amount of glucose circulating in the blood
 </details>
 <br>
 <details>
-  <summary><h4><strong>WHY USE AN ONLINE BLOOD SUGAR CONVERTER?</strong></h4></summary>
+  <summary><h5><strong>WHY USE AN ONLINE BLOOD SUGAR CONVERTER?</strong></h5></summary>
   With the help of <strong> BLOOD SUGAR CONVERTER</strong>, you will be able to Convert your blood sugar/glucose from mmol/L (UK standard) to
 mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There are no payment or login restrictions. It’s totally free.
 
 </details>
 <br><br><br><br><br>
-<p class="card-text"><strong><h4>Credits</h4></strong></p>
+<p class="card-text"><strong><h5>Credits</h5></strong></p>
 <hr>
 <p class="card-text">
   <strong>Image Credits: </strong> Atrain Education (<a href="https://atrainceu.com" target="_blank">Atrain Education</a>), <i>Regulation of Blood Glucose</i>
@@ -760,16 +760,22 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
   <br>
   <strong>Image Credits: </strong> Diabetes UK (<a href="https://diabetes.co.uk" target="_blank">Diabetes UK </a>), <i>Blood Sugar Converter for Diabetes</i>
 </p>
-<br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br><br>
+<br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br
 <p class="float-end mb-1"></p>
 
-    <br><br><br>
+    <br><br>
+
 <footer class="footer mt-auto py-3 bg-dark">
   <div class="container">
-    <span class="text-muted">BLOOD SUGAR CONVERTER &copy; <?php echo date("Y"); ?> | Pwered By: GetBusyCoding. &nbsp;<p><a href="https://facebook.com/dave.enyi.7" target="_blank"><i class="fa fa-facebook"></i></a>  <a href="https://instagram.com/i_am_dave_sleek" target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> <a href="https://twitter.com/davey_sleek" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a> <a href="https://linkedin.com/in/dave-enyi-631aa2109" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a> <a href="https://github.com/Dave-Sleek" target="_blank"><i class="fa fa-github" target="_blank"></i></a></p></span>
-    <h5> <a class="btn btn-outline-primary text-white shadow-ms" href="tel:+2347045574466"> <i class="fa fa-phone"></i> 07045576644</a>&nbsp;<a class="btn btn-outline-success text-white" href="https://wa.me/2348138809708?text=Hi%20I'm%20Dave,%20thanks%20for%20contacting%20me!%20Please%20let%20 me%20know%20how%20i%20can%20help%20you."> <i class="fa fa-whatsapp"></i> Send a message</a></h5>
+     <h5><p class="card-text" align="center"><a href="https://facebook.com/dave.enyi.7" target="_blank"><i class="fa fa-facebook"></i></a>  <a href="https://instagram.com/i_am_dave_sleek" target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> <a href="https://twitter.com/davey_sleek" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a> <a href="https://linkedin.com/in/dave-enyi-631aa2109" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a> <a href="https://github.com/Dave-Sleek" target="_blank"><i class="fa fa-github" target="_blank"></i></a></p></h5>
+     <span>
+    <h5 align="center"> <a class="btn btn-outline-default text-white shadow-ms" href="tel:+2347045574466"> <i class="fa fa-phone"></i> 07045576644</a>&nbsp;<a class="btn btn-outline-default text-white" href="https://wa.me/2348138809708?text=Hi%20I'm%20Dave,%20thanks%20for%20contacting%20me!%20Please%20let%20 me%20know%20how%20i%20can%20help%20you."> <i class="fa fa-whatsapp"></i> Send a message</a></h5></span>
+   <center> <span class="text-muted">BLOOD SUGAR CONVERTER</span></center>
+   <center><span class="text-muted"> GetBusyCoding &copy; <?php echo date("Y"); ?></span></center>
+   
   </div>
 </footer>
+
   </body>
   <script>
    var month = new Date();
