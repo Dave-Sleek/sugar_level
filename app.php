@@ -98,7 +98,7 @@
 <hr><br>
 <form name="convert" id="convert" method="post">
   <h1 class="h3 mb-3 fw-normal" align="center"> Enter mg/dL or mmol/L value for conversion </h1>
-  <br><br>
+  <br>
      <div class="form-control">
       <!--<span class="input-group-text" id="inputGroup-sizing-lg bg-danger">Enter mg/dL</span>-->
       <input type="text" class="form-control" name="mgdL" id="mgdL" placeholder="Enter mg/dL" onkeyup="return sugarlevel();">
@@ -760,7 +760,7 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
   <br>
   <strong>Image Credits: </strong> Diabetes UK (<a href="https://diabetes.co.uk" target="_blank">Diabetes UK </a>), <i>Blood Sugar Converter for Diabetes</i>
 </p>
-<br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br
+<br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br>
 <p class="float-end mb-1"></p>
 
     <br><br>
