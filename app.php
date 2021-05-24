@@ -19,12 +19,42 @@
   </style>
   <title>BLOOD SUGAR CONVERTER</title>
   <!-- CSS BOOTSTRAP -->
+<link rel="stylesheet" href="assets/dist/css/style.css">
+<script src="assets/dist/js/script.js"></script>
+
+ <script type="text/javascript" src="assets/dist/js/canvas-nest.umd.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/dist/css/preloader.css">
 <link rel="stylesheet" type="text/css" href="assets/dist/css/toggle.css">
 <link rel="stylesheet" type="text/css" href="assets/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="assets/dist/css/font-awesome-animation.css">
 <script type="text/javascript" src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #github-iframe {
+      position: fixed;
+      left: 32px;
+      top: 32px;
+    }
+
+    #area-render {
+      position: fixed;
+      width: 320px;
+      height: 160px;
+      right: 4px;
+      bottom: 4px;
+      border: dashed 1px #ccc;
+    }
+  </style>
 </head>
 <script type="text/javascript">
   function sugarlevel() {
@@ -51,7 +81,7 @@
 </script>
 
 <body>
-
+<div id="github-iframe"></div>
 <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow-sm fixed-top">
   <p class="h5 my-0 me-md-auto fw-normal"><a class="navbar-brand" href="app.php" style="color: white;"><i class="fa fa-thermometer-3"> </i><strong> BLOOD SUGAR CONVERTER</strong></a></p>
   <nav class="my-2 my-md-0 me-md-3">
@@ -62,6 +92,9 @@
     <a class="p-2 text-dark" href="#">Pricing</a>
   -->
   </nav>
+  
+
+
 <!--
   <button type="button" style="float: left; color: white;" onclick="myFunction()"  class="btn btn-default"><h3><i class="fa fa-toggle-on faa-fade animated faa-slow"></i></h3></button>
 -->
@@ -85,6 +118,7 @@
 <h1 class="h5 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
 <br>
 <img src="assets/img/img.jpeg" class="img-fluid mx-auto d-block">
+<div id="area-render"></div>
 
 <br>
 <center>
@@ -92,10 +126,11 @@
 <span class="card-text" id="days" align="center"></span> -&nbsp;
 <span class="card-text" id="dat"> </span> -&nbsp;
 <span class="card-text" id="mont"> </span> -&nbsp;
-<span class="card-text" id="mont"> <?php echo date("Y"); ?> </span>
-<span class="card-text" style="text-align"><script src="assets/dist/js/greetings.js"></script></span>
+<span class="card-text" id="mont"> <?php echo date("Y"); ?> </span> 
+<span class="card-text" style="text-align: center;"><script src="assets/dist/js/greetings.js"></script></span>
 </center>
 <hr><br>
+
 <form name="convert" id="convert" method="post">
   <h1 class="h3 mb-3 fw-normal" align="center"> Enter mg/dL or mmol/L value for conversion </h1>
   <br>
@@ -679,78 +714,120 @@ People with type 2 diabetes have excess glucagon secretion, which is a contribut
 </div>
 </div>
 
-
           </p>
         </div>
       </div>
     </div>
   </div>
-<p class="card-text"><strong><h5>Read more about blood sugar</h5></strong></p>
-<details>
-  <summary><h5><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></h5></summary>
-<p>
+<!--Accordions -->
+<div class="container">       
+        <div class="example">
+            <div class="head" style="color: black;">
+                <div class="title"><p class="card-text"><strong><h4>Read more about blood sugar</h4></strong></p></div>
+                <div class="description">
+                    All you need to know about blood sugar/glucose
+                    <!--<span class="info">Multiple accordion tab can be open at a time.</span>-->
+                </div>
+            </div>
+
+            <ul class="accordion-container" id="multiple-tab">
+                <li class="accordion-item">
+                    <div class="head" style="color: black;">
+                        <i></i>
+                        <p class="card-text"><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></p>
+                    </div>
+                    <div class="body" style="color: black;">
+                        <div class="wrapper">
+                            <p style="color: black;">
 The blood sugar level, blood sugar concentration, or blood glucose level is the measure of concentration of glucose present in the blood of humans or other animals. Approximately 4 grams of glucose, a simple sugar, is present in the blood of a 70 kg (154 lb) human at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen; in fasting individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle.
 </p>
-<p>
+<p style="color: black;">
 The fluctuation of blood sugar (red) and the sugar-lowering hormone insulin (blue) in humans during the course of a day with three meal. One of the effects of a sugar-rich vs a starch-rich meal is highlighted.
 </p>
-<p>
+<p style="color: black;">
 In humans, a blood glucose level of 4 grams, or about a teaspoon, is critical for normal function in a number of tissues, and the human brain consumes approximately 60% of blood glucose in fasting, sedentary individuals. A persistent elevation in blood glucose leads to glucose toxicity, which contributes to cell dysfunction and the pathology grouped together as complications of diabetes. Glucose can be transported from the intestines or liver to other tissues in the body via the bloodstream. Cellular glucose uptake is primarily regulated by insulin, a hormone produced in the pancreas.
 </p>
-<p>
+<p style="color: black;">
 Glucose levels are usually lowest in the morning, before the first meal of the day, and rise after meals for an hour or two by a few millimoles. Blood sugar levels outside the normal range may be an indicator of a medical condition. A persistently high level is referred to as hyperglycemia; low levels are referred to as hypoglycemia. Diabetes mellitus is characterized by persistent hyperglycemia from any of several causes, and it is the most prominent disease related to the failure of blood sugar regulation. There are different methods of testing and measuring blood sugar levels.
 </p>
 <br>
-The intake of alcohol causes an initial surge in blood sugar and later tends to cause levels to fall. Also, certain drugs can increase or decrease glucose levels.
-
-</details>
-<br>
-<details>
-<summary> <h5><strong>THE DIFFERENCE BETWEEN mmol/L and mg/dL</strong></h5> </summary>
-<br><br>
-  <h5><strong>Whats the difference between mmol/L and mg/dL?</strong></h5><p>
-Both sets of units are used to measure blood sugar levels and both give a measurement of the concentration of glucose in the blood, albeit in slightly different ways.
-<p>
-mmol/L gives the molarity, which is the number of molecules of a substance within a specified volumen, in this case within 1 litre. mg/dL gives the concentration by the ratio of weight to volumen, in this case milligrams per decilitre.
+<p style="color: black;">
+The intake of alcohol causes an initial surge in blood sugar and later tends to cause levels to fall. Also, certain drugs can increase or decrease glucose levels.</p>
+                            <!--<a class="more" href="#">Learn More</a>-->
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <div class="head" style="color: black;">
+                        <i></i>
+                        <p class="card-text"><strong>THE DIFFERENCE BETWEEN mmol/L and mg/dL</strong></p>
+                    </div>
+                    <div class="body" style="color: black;">
+                        <div class="wrapper">
+                            <p style="color: black;">
+Both sets of units are used to measure blood sugar levels and both give a measurement of the concentration of glucose in the blood, albeit in slightly different ways.</p>
+<p style="color: black;">
+mmol/L gives the molarity, which is the number of molecules of a substance within a specified volumen, in this case within 1 litre. mg/dL gives the concentration by the ratio of weight to volumen, in this case milligrams per decilitre.</p>
 
 mmol/L is the most common measurement used in the UK with mg/dL predominantly used in the USA and continental Europe.
-<p>
+<p style="color: black;">
 mmol/L International standard unit for measuring the concentration of glucose in the blood – also known as millimolar (mM). This unit is used in the UK. : Millimoles per litre<br><br>
 mg/dL Unit for measuring concentration of glucose in the blood in the USA – milligrams per decilitre. : Milligrams per 100 millilitres
-Blood glucose typically varies from 4 mmol/L to 6 mmol/L for people without diabetes.
-
+Blood glucose typically varies from 4 mmol/L to 6 mmol/L for people without diabetes.</p>
+<p style="color: black;">
 Blood sugar (also called blood glucose) needs to be tightly controlled in the human body to minimise the risk of complications developing.
 </p>
-
+<p style="color: black;">
 <b>Formula to calculate mmol/l from mg/dl</b>: mmol/l = mg/dl / 18<br>
 <b>Formula to calculate mg/dl from mmol/l</b>: mg/dl = 18 × mmol/l
-<br><br>
+<br><br></p>
 
 <img src="assets/img/sg.jpg" class="rounded"><br>
-<h5><strong>Can I change the units given by my blood glucose meter?</strong></h5>
+<h5 style="color: black;"><strong>Can I change the units given by my blood glucose meter?</strong></h5>
+<p style="color: black;">
 This can depend on <i class="rounded" style="color: green;"><b>which blood glucose meter</b> </i> you have. Some meters allow you to change the units from mg/dL to mmol/L and vice versa whether some meters are only set up to display one set of units.
 
 Check the meter’s manual for whether it is possible to change the units. If you don’t have or cannot find the manual, contact the manufacturer.
 </p>
-<br><br>
 
-<p>
 
   <img src="assets/img/sg1.jpg" class="rounded"><br>
-  <h5><strong>Why are blood sugar levels important?</strong></h5>
-Measuring blood sugar levels and understanding what your glucose levels should be is an essential part of diabetes treatment for many people with diabetes.
+  <h5 style="color: black;"><strong>Why are blood sugar levels important?</strong></h5>
+  <p class="card-text" style="color: black;">Measuring blood sugar levels and understanding what your glucose levels should be is an essential part of diabetes treatment for many people with diabetes. Blood sugar level refers to the total amount of glucose circulating in the blood. In different parts of the world, different units for measuring blood glucose are standard.  </p>
 
+                            <!--<a class="more" href="#">Learn More</a>-->
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <div class="head" style="color: black;">
+                        <i></i>
+                        <p class="card-text" ><strong>WHY USE AN ONLINE BLOOD SUGAR CONVERTER?</strong></p>
+                    </div>
+                    <div class="body" style="color: black;">
+                        <div class="wrapper">
+                            <p style="color: black;">
+Measuring blood sugar levels and understanding what your glucose levels should be is an essential part of diabetes treatment for many people with diabetes.</p>
+<p>
 Blood sugar level refers to the total amount of glucose circulating in the blood. In different parts of the world, different units for measuring blood glucose are standard.
 </p>
-</details>
-<br>
-<details>
-  <summary><h5><strong>WHY USE AN ONLINE BLOOD SUGAR CONVERTER?</strong></h5></summary>
-  With the help of <strong> BLOOD SUGAR CONVERTER</strong>, you will be able to Convert your blood sugar/glucose from mmol/L (UK standard) to
-mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There are no payment or login restrictions. It’s totally free.
+                            <!--<a class="more" href="#">Learn More</a>-->
+                        </div>
+                    </div>
+                </li>
+            </ul>
 
-</details>
-<br><br><br><br><br>
+            <script>
+                var accordion = new Accordion({
+                    element: "#multiple-tab",
+                    multipleTab: true
+                });
+            </script>
+        </div>
+    </div>
+
+
+<br><br>
 <p class="card-text"><strong><h5>Credits</h5></strong></p>
 <hr>
 <p class="card-text">
@@ -763,7 +840,6 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
 <br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br>
 <p class="float-end mb-1"></p>
 
-    <br><br>
 
 <footer class="footer mt-auto py-3 bg-dark">
   <div class="container">
@@ -776,6 +852,35 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
   </div>
 </footer>
 
+
+  <script type="text/javascript">
+  var cn = new CanvasNest(document.getElementById('area-render'), {
+    color: '255,0,255',
+    count: 50,
+  });
+
+  // 下面为其他 js，无需关注
+  function asyncLoad() {
+    //async load github
+    var i = document.createElement("iframe");
+    i.src = "https://ghbtns.com/github-btn.html?user=hustcc&repo=canvas-nest.js&type=star&count=true";
+    i.scrolling = "no";
+    i.frameborder = "0";
+    i.border = "0";
+    i.setAttribute("frameborder", "0", 0);
+    i.width = "100px";
+    i.height = "20px";
+    document.getElementById("github-iframe").appendChild(i);
+  }
+  function loadGitHubBtn() {
+    if (window.addEventListener) {window.addEventListener("load", asyncLoad, false);}
+    else if (window.attachEvent) {window.attachEvent("onload", asyncLoad);}
+    else {window.onload = asyncLoad;}
+  }
+
+  loadGitHubBtn();
+</script>
+<script type="text/javascript" color="255,0,0" pointColor="255,0,0" opacity='0.7' zIndex="-2" count="100" src="assets/dist/js/canvas-nest.js"></script>
   </body>
   <script>
    var month = new Date();
