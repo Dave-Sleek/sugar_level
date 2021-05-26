@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script data-ad-client="ca-pub-8918616047230546" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="images/icons/favicon.png"/>
+  <link rel="icon" href="assets/dist/icons/favicon.png"/>
   <style type="text/css">
     body{
       color: black;
@@ -14,7 +13,7 @@
     }
 
     .dark-mode{
-      background-color: #23395d;
+      background-color: #0d6efd;
       color: white;
       transition: color 1500ms, background-color 1500ms;
     }
@@ -119,7 +118,7 @@
        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
     <div class="col">
       <div class="card mb-4 shadow-sm">
-      <div class="card-header bg-primary shadow-ms">
+      <div class="card-header bg-primary shadow-ms" style="color: white;">
         <h4 class="my-0 fw-normal">Results</h4>
       </div>
      
@@ -127,7 +126,7 @@
     </div>
     <div class="col">
       <div class="card mb-4 shadow-sm">
-      <div class="card-header bg-danger shadow-ms">
+      <div class="card-header shadow-ms bg-primary" style="color: white;">
         <h4 class="my-0 fw-normal">From mg/dL To mmol/L</h4>
       </div>
       <div class="card-body">
@@ -138,7 +137,7 @@
     </div>
     <div class="col">
       <div class="card mb-4 shadow-sm">
-      <div class="card-header bg-warning">
+      <div class="card-header bg-primary" style="color: white;">
         <h4 class="my-0 fw-normal">From  mmol/L To mg/dL</h4>
       </div>
       <div class="card-body">
@@ -169,10 +168,10 @@
       <div class="card">
         <img src="assets/img/sg.jpg" class="rounded">
 
-        <div class="card-body">
+        <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>HOW TO USE BLOOD GLUCOSE METER (Glucometers)</strong> </h5>
-          <p class="card-text" style="color: black;">
-          Oftentimes, unless you have met with a certified diabetes educator, your doctor may have given you a prescription for a glucometer without explicitly telling you how to use it.</p>
+          <p class="card-text" style="color: black;">Oftentimes, unless you have met with a certified diabetes educator, your doctor may have given you a prescription for a glucometer without explicitly telling you how to use it.
+          </p>
           <p style="color: black;">
           And while most instruction manuals are user-friendly, this task can seem daunting if you are new to testing or not that technologically savvy. Follow these guidelines for safe and easy testing.
           </p>
@@ -188,10 +187,10 @@
 <div class="modal-dialog modal-dialog-scrollable">
 <div class="modal-content">
 <div class="modal-header bg-primary">
-<h5 class="modal-title" id="staticBackdropLabel"><strong>What You Need to Use a Glucometer (GlucoMeters)</strong></h5>
+<h5 class="modal-title" id="staticBackdropLabel" style="color: white;"><strong>What You Need to Use a Glucometer (GlucoMeters)</strong></h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
-<div class="modal-body" style="color: black;">
+<div class="modal-body" style="color: black;" align="justify">
 <ul>
 <li>Alcohol prep pad (or soap and water if you have access to a sink)</li>
 <li>Lancet</li>
@@ -227,7 +226,7 @@ Pierce your fingertip on the side of your finger, between the bottom of your fin
 </ol>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
 <!--<button type="button" class="btn btn-primary">Understood</button>-->
 </div>
 </div>
@@ -242,14 +241,13 @@ Pierce your fingertip on the side of your finger, between the bottom of your fin
       <div class="card">
         <img src="assets/img/sg1.jpg" class="rounded">
 
-        <div class="card-body">
+        <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>HOW TO CONTROL YOUR BLOOD SUGAR LEVEL NATURALLY</strong></h5>
           <p class="card-text" style="color: black;">This Article Was Written by Arlene Semeco, MS, RD — Medically reviewed by Katherine Marengo LDN, R.D. — Updated on December 21, 2020
 Bonnin Studio/Stocksy United
 <p style="color: black;">
 High blood sugar occurs when your body doesn’t make enough or effectively use insulin, a hormone that regulates blood glucose and helps it enter your cells for energy.
 </p>
-
 
                     <center>            
             <!-- Button trigger modal -->
@@ -263,10 +261,10 @@ High blood sugar occurs when your body doesn’t make enough or effectively use 
 <div class="modal-dialog modal-dialog-scrollable">
 <div class="modal-content">
 <div class="modal-header bg-primary">
-<h5 class="modal-title" id="exampleModalLabel"><strong>15 Easy Ways to Lower Blood Sugar Levels Naturally</strong></h5>
+<h5 class="modal-title" id="exampleModalLabel" style="color: white;"><strong>15 Easy Ways to Lower Blood Sugar Levels Naturally</strong></h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
-<div class="modal-body" style="color: black;">
+<div class="modal-body" style="color: black;" align="justify">
 <p>
  High blood sugar (hyperglycemia) is associated with diabetes.
 The Centers for Disease Control and Prevention (CDC) reports that 13% of U.S. adults live with diabetes, and 34.5% have prediabetes (1Trusted Source).</p>
@@ -576,7 +574,7 @@ If you have diabetes or have blood sugar management problems, it’s important t
 </ol>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
 <!--<button type="button" class="btn btn-primary">Understood</button>-->
 </div>
 </div>
@@ -591,7 +589,7 @@ If you have diabetes or have blood sugar management problems, it’s important t
       <div class="card">
         <img src="assets/img/bd.jpg" class="rounded">
 
-        <div class="card-body">
+        <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>LEARN MORE ABOUT SUGAR LEVEL</strong></h5>
           <p class="card-text" style="color: black;">Regulation of glucose in the body is done autonomically and constantly throughout each minute of the day. Normal BG levels should be between 60 and 140 mg/dL in order to supply cells of the body with its required energy. 
           <p class="card-text" style="color: black;">
@@ -610,10 +608,10 @@ If you have diabetes or have blood sugar management problems, it’s important t
 <div class="modal-dialog modal-dialog-scrollable">
 <div class="modal-content">
 <div class="modal-header bg-primary">
-<h5 class="modal-title" id="exampleModalLabel1"><strong>LEARN MORE ABOUT SUGAR LEVEL</strong></h5>
+<h5 class="modal-title" id="exampleModalLabel1" style="color: white;"><strong>LEARN MORE ABOUT SUGAR LEVEL</strong></h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
-<div class="modal-body" style="color: black;">
+<div class="modal-body" style="color: black;" align="justify">
 <p class="card-text">
 Too little glucose, called hypoglycemia, starves cells, and too much glucose (hyperglycemia) creates a sticky, paralyzing effect on cells. Euglycemia, or blood sugar within the normal range, is naturally ideal for the body’s functions. A delicate balance between hormones of the pancreas, intestines, brain, and even adrenals is required to maintain normal BG levels.</p>
 
@@ -675,7 +673,7 @@ People with type 2 diabetes have excess glucagon secretion, which is a contribut
 <img src="assets/img/bd.jpg" class="rounded">
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
 <!--<button type="button" class="btn btn-primary">Understood</button>-->
 </div>
 </div>
@@ -691,16 +689,16 @@ People with type 2 diabetes have excess glucagon secretion, which is a contribut
 <p class="card-text"><strong><h5>Read more about blood sugar</h5></strong></p>
 <details>
   <summary><h5><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></h5></summary>
-<p>
+<p class="card-text" align="justify">
 The blood sugar level, blood sugar concentration, or blood glucose level is the measure of concentration of glucose present in the blood of humans or other animals. Approximately 4 grams of glucose, a simple sugar, is present in the blood of a 70 kg (154 lb) human at all times. The body tightly regulates blood glucose levels as a part of metabolic homeostasis. Glucose is stored in skeletal muscle and liver cells in the form of glycogen; in fasting individuals, blood glucose is maintained at a constant level at the expense of glycogen stores in the liver and skeletal muscle.
 </p>
-<p>
+<p class="card-text" align="justify">
 The fluctuation of blood sugar (red) and the sugar-lowering hormone insulin (blue) in humans during the course of a day with three meal. One of the effects of a sugar-rich vs a starch-rich meal is highlighted.
 </p>
-<p>
+<p class="card-text" align="justify">
 In humans, a blood glucose level of 4 grams, or about a teaspoon, is critical for normal function in a number of tissues, and the human brain consumes approximately 60% of blood glucose in fasting, sedentary individuals. A persistent elevation in blood glucose leads to glucose toxicity, which contributes to cell dysfunction and the pathology grouped together as complications of diabetes. Glucose can be transported from the intestines or liver to other tissues in the body via the bloodstream. Cellular glucose uptake is primarily regulated by insulin, a hormone produced in the pancreas.
 </p>
-<p>
+<p class="card-text" align="justify">
 Glucose levels are usually lowest in the morning, before the first meal of the day, and rise after meals for an hour or two by a few millimoles. Blood sugar levels outside the normal range may be an indicator of a medical condition. A persistently high level is referred to as hyperglycemia; low levels are referred to as hypoglycemia. Diabetes mellitus is characterized by persistent hyperglycemia from any of several causes, and it is the most prominent disease related to the failure of blood sugar regulation. There are different methods of testing and measuring blood sugar levels.
 </p>
 <br>
@@ -711,59 +709,70 @@ The intake of alcohol causes an initial surge in blood sugar and later tends to 
 <details>
 <summary> <h5><strong>THE DIFFERENCE BETWEEN mmol/L and mg/dL</strong></h5> </summary>
 <br><br>
-  <h5><strong>Whats the difference between mmol/L and mg/dL?</strong></h5><p>
+  <h5 class="card-text" align="justify"><strong>Whats the difference between mmol/L and mg/dL?</strong></h5>
+<p class="card-text" align="justify">
 Both sets of units are used to measure blood sugar levels and both give a measurement of the concentration of glucose in the blood, albeit in slightly different ways.
-<p>
+</p>
+<p class="card-text" align="justify">
 mmol/L gives the molarity, which is the number of molecules of a substance within a specified volumen, in this case within 1 litre. mg/dL gives the concentration by the ratio of weight to volumen, in this case milligrams per decilitre.
-
-mmol/L is the most common measurement used in the UK with mg/dL predominantly used in the USA and continental Europe.
-<p>
-mmol/L International standard unit for measuring the concentration of glucose in the blood – also known as millimolar (mM). This unit is used in the UK. : Millimoles per litre<br><br>
+</p>
+<p class="card-text" align="justify">
+mmol/L is the most common measurement used in the UK with mg/dL predominantly used in the USA and continental Europe. mmol/L International standard unit for measuring the concentration of glucose in the blood – also known as millimolar (mM). This unit is used in the UK. : Millimoles per litre<br><br>
 mg/dL Unit for measuring concentration of glucose in the blood in the USA – milligrams per decilitre. : Milligrams per 100 millilitres
 Blood glucose typically varies from 4 mmol/L to 6 mmol/L for people without diabetes.
-
-Blood sugar (also called blood glucose) needs to be tightly controlled in the human body to minimise the risk of complications developing.
 </p>
+<p class="card-text" align="justify">
+Blood sugar (also called blood glucose) needs to be tightly controlled in the human body to minimise the risk of complications developing.
 
+<br>
 <b>Formula to calculate mmol/l from mg/dl</b>: mmol/l = mg/dl / 18<br>
 <b>Formula to calculate mg/dl from mmol/l</b>: mg/dl = 18 × mmol/l
 <br><br>
-
-<img src="assets/img/sg.jpg" class="rounded"><br>
+</p>
+<p class="card-text" align="justify">
+<img src="assets/img/sg.jpg" class="rounded">
+</p>
+<br>
 <h5><strong>Can I change the units given by my blood glucose meter?</strong></h5>
+<p class="card-text" align="justify">
 This can depend on <i class="rounded" style="color: green;"><b>which blood glucose meter</b> </i> you have. Some meters allow you to change the units from mg/dL to mmol/L and vice versa whether some meters are only set up to display one set of units.
 
 Check the meter’s manual for whether it is possible to change the units. If you don’t have or cannot find the manual, contact the manufacturer.
 </p>
 <br><br>
-
-<p>
-
+<p class="card-text" align="justify">
   <img src="assets/img/sg1.jpg" class="rounded"><br>
+</p>
   <h5><strong>Why are blood sugar levels important?</strong></h5>
+<p class="card-text" align="justify">
 Measuring blood sugar levels and understanding what your glucose levels should be is an essential part of diabetes treatment for many people with diabetes.
-
+</p>
+<p class="card-text" align="justify">
 Blood sugar level refers to the total amount of glucose circulating in the blood. In different parts of the world, different units for measuring blood glucose are standard.
 </p>
 </details>
+
+
 <br>
 <details>
   <summary><h5><strong>WHY USE AN ONLINE BLOOD SUGAR CONVERTER?</strong></h5></summary>
+  <p class="card-text" align="justify">
   With the help of <strong> BLOOD SUGAR CONVERTER</strong>, you will be able to Convert your blood sugar/glucose from mmol/L (UK standard) to
 mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There are no payment or login restrictions. It’s totally free.
+</p>
 
 </details>
 <br><br><br><br><br>
 <p class="card-text"><strong><h5>Credits</h5></strong></p>
 <hr>
-<p class="card-text">
-  <strong>Image Credits: </strong> Atrain Education (<a href="https://atrainceu.com" target="_blank">Atrain Education</a>), <i>Regulation of Blood Glucose</i>
+<p class="card-text" align="justify">
+  <strong>Image Credits: </strong> Atrain Education (<a style="color: navy;" href="https://atrainceu.com" target="_blank">Atrain Education</a>), <i>Regulation of Blood Glucose</i>
   <br>
-  <strong>Image Credits: </strong> Narayana Health (<a href="https://narayanahealth.org" target="_blank">Narayana Health</a>), <i>Control blood sugar & lower the risk of diabetes</i>
+  <strong>Image Credits: </strong> Narayana Health (<a style="color: navy;" href="https://narayanahealth.org" target="_blank">Narayana Health</a>), <i>Control blood sugar & lower the risk of diabetes</i>
   <br>
-  <strong>Image Credits: </strong> Diabetes UK (<a href="https://diabetes.co.uk" target="_blank">Diabetes UK </a>), <i>Blood Sugar Converter for Diabetes</i>
+  <strong>Image Credits: </strong> Diabetes UK (<a style="color: navy;" href="https://diabetes.co.uk" target="_blank">Diabetes UK </a>), <i>Blood Sugar Converter for Diabetes</i>
 </p>
-<br><a href="#" class="btn btn-default" style="float: right; color: blue;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br>
+<br><a href="#" class="btn btn-primary" style="float: right; color: white;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br>
 <p class="float-end mb-1"></p>
 
 
