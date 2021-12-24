@@ -85,7 +85,7 @@
 -->
 <div class="container">
 <br>
-<h5 class="h3 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
+<h5 class="h5 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
 <h1 class="h5 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
 <br>
 <img src="assets/img/img05.png" height="450" width="450" class="img-fluid mx-auto d-block" alt="Image coming soon">
