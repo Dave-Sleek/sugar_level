@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/dist/icons/favicon.png"/>
-  <style type="text/css">
+  <!-- <style type="text/css">
     body{
       color: black;
       transition: color 1500ms, background-color 1500ms;
@@ -18,7 +18,7 @@
       color: white;
       transition: color 1500ms, background-color 1500ms;
     }
-  </style>
+  </style> -->
   <title>BLOOD SUGAR CONVERTER</title>
   <!-- CSS BOOTSTRAP -->
 <link rel="stylesheet" type="text/css" href="assets/dist/css/preloader.css">
@@ -27,7 +27,6 @@
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="assets/dist/css/font-awesome-animation.css">
 <script type="text/javascript" src="assets/dist/js/bootstrap.bundle.min.js"></script>
-</head>
 <script type="text/javascript">
   function sugarlevel() {
     let mgdL = document.forms["convert"]["mgdL"].value;
@@ -52,8 +51,9 @@
   sugar();
 </script>
 
-<body>
+</head>
 
+<body>
 <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow-sm fixed-top">
   <p class="h5 my-0 me-md-auto fw-normal"><a class="navbar-brand" href="app.php" style="color: white;"><i class="fa fa-thermometer-3"> </i><strong> BLOOD SUGAR CONVERTER</strong></a></p>
   <nav class="my-2 my-md-0 me-md-3">
@@ -68,25 +68,27 @@
   <button type="button" style="float: left; color: white;" onclick="myFunction()"  class="btn btn-default"><h3><i class="fa fa-toggle-on faa-fade animated faa-slow"></i></h3></button>
 -->
   <!-- Rounded switch -->
-<label class="switch">
+
+<!-- <label class="switch">
 <input type="checkbox" onclick="myFunction()" >
-<span class="slider round"></span>
+<span class="slider round"></span> -->
 </label>
 
 <!--
   <a class="btn btn-outline-primary" href="#">Sign up</a>
 -->
 </header>
- <br><br><br><br>
+ <br><br><br>
+
 <!--
 <button type="button" style="float: left;" onclick="myFunction()"  class="btn btn-default"><h3><i class="fa fa-toggle-on faa-fade animated faa-slow"></i></h3></button>
 -->
 <div class="container">
 <br>
-<h5 class="h5 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
+<h5 class="h3 mb-3 fw-normal" align="center"><strong>BLOOD SUGAR <i class="fa fa-heartbeat faa-pulse animated faa-slow" style="color: red;"> </i> CONVERTER</strong></h5>
 <h1 class="h5 mb-3 fw-normal" align="center"> Convert blood sugar/glucose from mmol/L (UK standard) to <br>  mg/dL (US standard) an vice versa using blood sugar converter.</h1>
 <br>
-<img src="assets/img/img.jpeg" class="img-fluid mx-auto d-block">
+<img src="assets/img/img05.png" height="450" width="450" class="img-fluid mx-auto d-block" alt="Image coming soon">
 
 <br>
 <center>
@@ -148,17 +150,17 @@
     </div>
     </div>
   </div>
-   <p class="card-text"><strong><h4>Read more on how to</h4></strong></p>
+   <p class="card-text"><h4><strong>Read more on how to</strong></h4>
 <hr>
 </form>
 <br><br>
 <!-- <center><button type="button" onclick="myFunction()"  class="btn btn-default"><h3>Switch to dark mode <i class="fa fa-toggle-on faa-fade animated faa-slow"></i></h3></button></center> -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   function myFunction(){
     var element = document.body;
     element.classList.toggle("dark-mode");
   }
-</script>
+</script> -->
 
 <!--
 <img src="assets/img/sg.jpg" class="rounded" style="margin-right:25px;">&nbsp;&nbsp;&nbsp;<img src="assets/img/bd.jpg" class="rounded" style="margin-left:25px;">
@@ -167,7 +169,7 @@
 <div class="row" data-masonry='{"percentPosition": true }'>
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card">
-        <img src="assets/img/sg.jpg" class="rounded">
+        <img src="assets/img/img04.png" class="rounded">
 
         <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>HOW TO USE BLOOD GLUCOSE METER (Glucometers)</strong> </h5>
@@ -203,27 +205,27 @@
 <ol>
   <p>
 <li>First, set out your glucometer, a test strip, a lancet, and an alcohol prep pad.</li>
-</p>
+
 <li>Wash your hands to prevent infection. If you are not by a sink, it's okay to just use the alcohol swab. If you are by a sink and wash your hands thoroughly, you do not have to use an alcohol swab.</li>
 <p>
 <li>Sometimes it helps to warm your hands first to make the blood flow easier. You can rub your hands together briskly or run them under warm water—just be sure to dry them well as wet hands can dilute the blood sample, resulting in a lower number.</li> 
-</p>
+
 <li>Turn on the glucometer and place a test strip in the machine when the machine is ready. Watch the indicator for placing the blood on the strip.</li>
 <p>
 <li>Make sure your hand is dry and wipe the area you've selected with an alcohol prep pad and wait until the alcohol evaporates.
 Pierce your fingertip on the side of your finger, between the bottom of your fingernail to the tip of your nail (avoid the pads as this can pinch more). The type of drop of blood required is determined by the type of strip you are using (some use a "hanging drop" of blood versus a small drop for strips that draw blood in with a capillary action).</li>
-</p>
+
 <li>Place the drop of blood on or at the side of the strip.</li>
 <p>
 <li>The glucometer will take a few moments to calculate the blood sugar reading. Follow your doctor's orders for whatever blood sugar reading you get.</li>
-</p>
+
 <p>
 <li>You may use the alcohol prep pad to blot the site where you drew the blood if it is still bleeding.</li>
-</p>
+
 <li>Write down your results. Keeping a record makes it easier for you and your doctor to establish a good treatment plan.</li>
 <p>
 <li> Some glucometers can store your results in a memory, for easier record keeping.</li>
-</p>
+
 </ol>
 </div>
 <div class="modal-footer">
@@ -234,13 +236,12 @@ Pierce your fingertip on the side of your finger, between the bottom of your fin
 </div>
 </div>
 
-          </p>
         </div>
       </div>
     </div>
 <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card">
-        <img src="assets/img/sg1.jpg" class="rounded">
+        <img src="assets/img/img02.png" class="rounded">
 
         <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>HOW TO CONTROL YOUR BLOOD SUGAR LEVEL NATURALLY</strong></h5>
@@ -291,7 +292,7 @@ Useful forms of exercise include weightlifting, brisk walking, running, biking, 
 Exercise increases insulin sensitivity and helps your muscles use glucose effectively. This can lead to reduced blood sugar levels.</p>
 <p>
 <li> Manage your carb intake</li>
-Your body breaks carbs down into sugars (mostly glucose), and then insulin helps your body use and store sugar for energy.</p>
+Your body breaks carbs down into sugars (mostly glucose), and then insulin helps your body use and store sugar for energy.
 <p>
 When you eat too many carbs or have insulin-function problems, this process fails, and blood glucose levels can rise.</p>
 <p>
@@ -312,7 +313,7 @@ Carbs are broken down into glucose, which raises blood sugar levels. Reducing ca
 <p>
 
 <li>Increase your fiber intake</li>
-Fiber slows carb digestion and sugar absorption. For these reasons, it promotes a more gradual rise in blood sugar levels.</p>
+Fiber slows carb digestion and sugar absorption. For these reasons, it promotes a more gradual rise in blood sugar levels.
 <p>
 Furthermore, the type of fiber you eat may play a role.</p>
 <p>
@@ -333,14 +334,14 @@ Foods that are high in fiber include:</p>
 <li>legumes</li>
 <li>whole grains</li>
 </ul>
-The recommended daily intake of fiber is about 25 grams for women and 38 grams for men. That’s about 14 grams for every 1,000 calories (15).</p>
+The recommended daily intake of fiber is about 25 grams for women and 38 grams for men. That’s about 14 grams for every 1,000 calories (15).
 <p>
 <strong>SUMMARY</strong><br>
 Eating plenty of fiber can help with blood sugar management. Soluble dietary fiber is the most effective.
 <p>
 powered by Rubicon Project
 <li> Drink water and stay hydrated</li>
-Drinking enough water may help you keep your blood sugar levels within healthy limits.</p>
+Drinking enough water may help you keep your blood sugar levels within healthy limits.
 <p>
 In addition to preventing dehydration, it helps your kidneys flush out the excess sugar through urine.</p>
 <p>
@@ -371,12 +372,12 @@ Here are some helpful tips for managing portion sizes:</p>
 <li>Keep a food journal.</li>
 <li>Eat slowly.</li>
 </ul>
-</p>
+
 <strong>SUMMARY</strong><br>
 Focusing on your portion sizes can help you better manage your blood sugar levels.
 <p>
 <li>Choose foods with a low glycemic index</li>
-The glycemic index measures how we absorb or digest foods, which affects the rate at which blood sugar levels rise (32Trusted Source).</p>
+The glycemic index measures how we absorb or digest foods, which affects the rate at which blood sugar levels rise (32Trusted Source).
 <p>
 Both the amount and type of carbs determine how a food affects blood sugar levels (33Trusted Source, 34Trusted Source).</p>
 <p>
@@ -402,7 +403,7 @@ It’s essential to choose foods with a low glycemic index and monitor your over
 <p>
 
 <li>Manage stress levels</li>
-Stress can affect your blood sugar levels (36).</p>
+Stress can affect your blood sugar levels (36).
 <p>
 Hormones such as glucagon and cortisol are secreted during stress. These hormones cause blood sugar levels to go up (36, 37Trusted Source).</p>
 <p>
@@ -430,7 +431,7 @@ Try measuring your levels every day and keeping track of the numbers in a log.</
 Checking your blood glucose and maintaining a log every day will help you adjust foods and medications when necessary to help decrease your blood sugar levels.</p>
 <p>
 <li> Get enough quality sleep</li>
-Getting enough sleep feels excellent and is necessary for good health (44Trusted Source).</p>
+Getting enough sleep feels excellent and is necessary for good health (44Trusted Source).
 <p>
 Poor sleeping habits and a lack of rest can also affect blood sugar levels and insulin sensitivity. They can increase appetite and promote weight gain (45Trusted Source, 46Trusted Source).</p>
 <p>
@@ -442,7 +443,7 @@ Furthermore, adequate sleep is about both quantity and quality. It’s best to g
 Good sleep helps maintain your blood sugar levels and promote a healthy weight. Poor sleep can disrupt critical metabolic hormones.
 <p>
 <li>Eat foods rich in chromium and magnesium</li>
-High blood sugar levels and diabetes have also been linked to micronutrient deficiencies (48, 49, 56Trusted Source).</p>
+High blood sugar levels and diabetes have also been linked to micronutrient deficiencies (48, 49, 56Trusted Source).
 <p>
 Examples include deficiencies in the minerals chromium and magnesium.</p>
 <p>
@@ -460,7 +461,7 @@ Chromium-rich foods include:
 <li>vegetables</li>
 <li>nuts</li>
 </ul>
-Magnesium has also been shown to benefit blood sugar levels, while magnesium deficiency has been linked to a higher risk of developing diabetes (48, 55Trusted Source, 56Trusted Source).</p>
+Magnesium has also been shown to benefit blood sugar levels, while magnesium deficiency has been linked to a higher risk of developing diabetes (48, 55Trusted Source, 56Trusted Source).
 <p>
 Studies have linked individuals with the highest magnesium intake with up to a 47% lower risk for developing type 2 diabetes (57).</p>
 <p>
@@ -482,7 +483,7 @@ Magnesium-rich foods include:
 Eating foods rich in chromium and magnesium regularly can help prevent deficiencies and reduce the risk of blood sugar problems.</p>
 <p>
 <li>Try apple cider vinegar</li>
-Apple cider vinegar has many health benefits.</p>
+Apple cider vinegar has many health benefits.
 <p>
 It promotes lower fasting blood sugar levels, possibly decreasing its production by the liver or increasing its use by cells (59Trusted Source, 60Trusted Source, 61).</p>
 <p>
@@ -492,11 +493,11 @@ It may be mixed in a few ounces of water that you can drink before a high carb m
 <p>
 However, it’s essential to talk with your doctor before taking apple cider vinegar if you’re already taking medications that lower blood sugar.</p>
 <strong>SUMMARY</strong><br>
-Adding apple cider vinegar to your diet can help your body in many ways, including reducing blood sugar levels.</p>
+Adding apple cider vinegar to your diet can help your body in many ways, including reducing blood sugar levels.
 
 <p>
 <li>Experiment with cinnamon extract</li>
-Cinnamon is known to have many health benefits.</p>
+Cinnamon is known to have many health benefits.
 <p>
 It’s been shown to improve insulin sensitivity by decreasing insulin resistance at the cellular level (69Trusted Source, 70Trusted Source).</p>
 <p>
@@ -545,7 +546,7 @@ Fenugreek seeds are easy to add to your diet and can help regulate blood glucose
 </p>
 <p>
 <li>Maintain a Moderate Weight</li>
-It’s a no-brainer that maintaining a moderate weight will help improve your health and may help prevent future health problems.</p>
+It’s a no-brainer that maintaining a moderate weight will help improve your health and may help prevent future health problems.
 <p>
 Weight management also promotes healthy blood sugar levels and has been shown to help reduce your risk for developing diabetes.</p>
 <p>
@@ -582,13 +583,12 @@ If you have diabetes or have blood sugar management problems, it’s important t
 </div>
 </div>
 
-          </p>
         </div>
       </div>
     </div>
    <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card">
-        <img src="assets/img/bd.jpg" class="rounded">
+        <img src="assets/img/img01.png" class="rounded">
 
         <div class="card-body" align="justify">
           <h5 class="card-title" style="color: black;"><strong>LEARN MORE ABOUT SUGAR LEVEL</strong></h5>
@@ -642,23 +642,23 @@ As a meal containing carbohydrates is eaten and digested, BG levels rise, and th
 <p>
 In a healthy liver, up to 10% of its total volume is used for glycogen stores. Skeletal muscle cells store about 1% of glycogen. The liver converts glycogen back to glucose when it is needed for energy and regulates the amount of glucose circulating between meals. Your liver is amazing in that it knows how much to store and keep, or break down and release, to maintain ideal plasma glucose levels. Imitation of this process is the goal of insulin therapy when glucose levels are managed externally. Basal–bolus dosing is used as clinicians attempt to replicate this normal cycle.</p>
 <p>
-<h4>While a healthy body requires a minimum concentration of circulating glucose (60–100 mg/dl), high chronic concentrations cause health problems and are toxic:</h4></p>
+<h4>While a healthy body requires a minimum concentration of circulating glucose (60–100 mg/dl), high chronic concentrations cause health problems and are toxic:</h4>
 <p>
   <ul>
-<li><strong>Acutely:</strong> Hyperglycemia of >300 mg/dl causes polyuria, resulting in dehydration. Profound hyperglycemia (>500 mg/dl) leads to confusion, cerebral edema, coma, and, eventually, death (Ferrante, 2007).</li></p>
+<li><strong>Acutely:</strong> Hyperglycemia of >300 mg/dl causes polyuria, resulting in dehydration. Profound hyperglycemia (>500 mg/dl) leads to confusion, cerebral edema, coma, and, eventually, death (Ferrante, 2007).</li>
 <p>
-<li><strong>Chronically:</strong> Hyperglycemia that averages more than 120 to 130 mg/dl gradually damages tissues throughout the body and makes a person more susceptible to infections. The glucose becomes syrupy in the bloodstream, intoxicating cells and competing with life-giving oxygen.</li></p>
+<li><strong>Chronically:</strong> Hyperglycemia that averages more than 120 to 130 mg/dl gradually damages tissues throughout the body and makes a person more susceptible to infections. The glucose becomes syrupy in the bloodstream, intoxicating cells and competing with life-giving oxygen.</li>
 <p>
 </ul>
-The concentration of glucose in the blood is determined by the balance between the rate of glucose entering and the rate of glucose leaving the circulation. These signals are delivered throughout the body by two pancreatic hormones, insulin and glucagon (Maitra, 2009). Optimal health requires that:</p>
+The concentration of glucose in the blood is determined by the balance between the rate of glucose entering and the rate of glucose leaving the circulation. These signals are delivered throughout the body by two pancreatic hormones, insulin and glucagon (Maitra, 2009). Optimal health requires that:
 <p>
 <ul>
-<li>When blood glucose concentrations are low, the liver is signaled to add glucose to the circulation.</li></p>
+<li>When blood glucose concentrations are low, the liver is signaled to add glucose to the circulation.</li>
 <p>
-<li>When blood glucose concentrations are high, the liver and the skeletal muscles are signaled to remove glucose from the circulation.</li></p>
+<li>When blood glucose concentrations are high, the liver and the skeletal muscles are signaled to remove glucose from the circulation.</li>
 </ul>
 <p>
-<h5><strong>The Role of Insulin</strong></h5></p>
+<h5><strong>The Role of Insulin</strong></h5>
 <p>
 Insulin is a peptide hormone made in the beta cells of the pancreas that is central to regulating carbohydrate metabolism in the body (Wikipedia, 2016). After a meal, insulin is secreted into the bloodstream. When it reaches insulin-sensitive cells—liver cells, fat cells, and striated muscle—insulin stimulates them to take up and metabolize glucose. Insulin synthesis and release from beta cells is stimulated by rising concentrations of blood glucose. Insulin has a range of effects that can be categorized as anabolic, or growth-promoting.</p>
 
@@ -681,13 +681,24 @@ People with type 2 diabetes have excess glucagon secretion, which is a contribut
 </div>
 </div>
 
-
-          </p>
         </div>
       </div>
     </div>
   </div>
-<p class="card-text"><strong><h5>Read more about blood sugar</h5></strong></p>
+
+  <div class="col-sm-6 col-lg-4 mb-4" style="float: right;">
+      <div class="card bg-primary text-white text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>"Time and health are two precious assets that we don't recognize and appreciate until they have been depleted."</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+            <cite title="Source Title">Denis Waitly</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+<p class="card-text"><h5><strong>Read more about blood sugar</strong></h5>
 <details>
   <summary><h5><strong>WHAT BLOOD SUGAR LEVEL IS ALL ABOUT</strong></h5></summary>
 <p class="card-text" align="justify">
@@ -763,8 +774,23 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
 </p>
 
 </details>
+<br><br>
+<!-- Second qoute -->
+<div class="col-sm-6 col-lg-4 mb-4" style="float: right;">
+      <div class="card bg-primary text-white text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>"You only live once, but if you do it right, once is enough."</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+            <cite title="Source Title">Mae West</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+<br><br>
 <br><br><br><br><br>
-<p class="card-text"><strong><h5>Credits</h5></strong></p>
+<p class="card-text"><h5><strong>Credits</strong></h5>
 <hr>
 <p class="card-text" align="justify">
   <strong>Image Credits: </strong> Atrain Education (<a style="color: navy;" href="https://atrainceu.com" target="_blank">Atrain Education</a>), <i>Regulation of Blood Glucose</i>
@@ -773,25 +799,15 @@ mg/dL (US standard) an vice versa using blood sugar converter.<br><br><br> There
   <br>
   <strong>Image Credits: </strong> Diabetes UK (<a style="color: navy;" href="https://diabetes.co.uk" target="_blank">Diabetes UK </a>), <i>Blood Sugar Converter for Diabetes</i>
 </p>
+
 <br><a href="#" class="btn btn-primary" style="float: right; color: white;"><h3><i class="fa fa-chevron-up faa-rising animated faa-slow"> </i> </h3></a><br><br>
 <p class="float-end mb-1"></p>
 
-
-    <br><br>
-
-<footer class="footer mt-auto py-3 bg-dark">
-  <div class="container">
-     <h5><p class="card-text" align="center"><a href="https://facebook.com/dave.enyi.7" target="_blank"><i class="fa fa-facebook"></i></a>  <a href="https://instagram.com/i_am_dave_sleek" target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> <a href="https://twitter.com/davey_sleek" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a> <a href="https://linkedin.com/in/dave-enyi-631aa2109" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a> <a href="https://github.com/Dave-Sleek" target="_blank"><i class="fa fa-github" target="_blank"></i></a></p></h5>
-     <span>
-    <h5 align="center"> <a class="btn btn-outline-default text-white shadow-ms" href="tel:+2347045574466"> <i class="fa fa-phone"></i> 07045576644</a>&nbsp;<a class="btn btn-outline-default text-white" href="https://wa.me/2348138809708?text=Hi%20I'm%20Dave,%20thanks%20for%20contacting%20me!%20Please%20let%20 me%20know%20how%20i%20can%20help%20you."> <i class="fa fa-whatsapp"></i> Send a message</a></h5></span>
-   <center> <span class="text-muted">BLOOD SUGAR CONVERTER</span></center>
-   <center><span class="text-muted"> GetBusyCoding &copy; <?php echo date("Y"); ?></span></center>
-   
-  </div>
-</footer>
-
-  </body>
-  <script>
+</div>
+</div>
+<br><br>
+  <?php include 'footer.php'; ?>
+  <script type="text/javascript">
    var month = new Date();
    document.getElementById("mont").innerHTML = month.getMonth() + 1;
     // Returns 27
@@ -838,4 +854,6 @@ document.getElementById("otime").innerHTML = d.toLocaleTimeString();
     document.getElementById("days").innerHTML = " " + day;
     </script>
   <script type="text/javascript" src="assets/dist/js/preloader.js"></script>
-</html>
+  </body>
+  </html>
+  
