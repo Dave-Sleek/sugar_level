@@ -3,8 +3,10 @@
     <div class="row">
       <div class="col-12 col-md">
         <!-- <img class="mb-2" src="../assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"> -->
+        <!--
         <span class="text-muted">BLOOD SUGAR CONVERTER</span>
-        <small class="d-block mb-3 text-muted"><span class="text-muted"> GetBusyCoding &copy; <?php echo date("Y"); ?></span></small>
+        <small class="d-block mb-3 text-muted"><span class="text-muted"> GetBusyCoding &copy; <?php //echo date("Y"); ?></span></small>
+        -->
       </div>
       <div class="col-6 col-md">
         <h5>Contact Info.</h5>
@@ -37,5 +39,10 @@
         </ul>
       </div>
     </div>
+    <div class="col-12 col-md" align="center">
+        <!-- <img class="mb-2" src="../assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"> -->
+        <span class="text-muted">BLOOD SUGAR CONVERTER</span>
+        <small class="d-block mb-3 text-muted"><span class="text-muted">Powered By: GetBusyCoding &copy; <?php echo date("Y"); ?></span></small>
+      </div>
   </div>
   </footer>
