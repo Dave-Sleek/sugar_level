@@ -42,7 +42,7 @@
     <div class="col-12 col-md" align="center">
         <!-- <img class="mb-2" src="../assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"> -->
         <span class="text-muted">BLOOD SUGAR CONVERTER</span>
-        <small class="d-block mb-3 text-muted"><span class="text-muted">Powered By: GetBusyCoding &copy; <?php echo date("Y"); ?></span></small>
+        <small class="d-block mb-3 text-muted"><span class="text-muted">Powered By: GetBusyCoding</span> &copy; <span class="card-text" id="yr"></span></small>
       </div>
   </div>
   </footer>
