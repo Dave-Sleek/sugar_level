@@ -46,3 +46,7 @@
       </div>
   </div>
   </footer>
+<script type="text/javascript">
+    	let year = new Date();
+    	document.getElementById("yr").innerHTML = year.getFullYear();
+    </script>
